@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1719523788654
+current_stage: None
+description: ''
+last_updated_timestamp: 1719523788654
+name: MLP
+run_id: 25b9c130e0e44c3f85a38b679f9b3f60
+run_link: ''
+source: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/875728371461656657/25b9c130e0e44c3f85a38b679f9b3f60/artifacts/MLP_Regressor
+status: READY
+status_message: null
+storage_location: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/875728371461656657/25b9c130e0e44c3f85a38b679f9b3f60/artifacts/MLP_Regressor
+user_id: null
+version: 1

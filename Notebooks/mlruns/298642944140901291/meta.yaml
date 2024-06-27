@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/298642944140901291
+creation_time: 1719522756823
+experiment_id: '298642944140901291'
+last_update_time: 1719522756823
+lifecycle_stage: active
+name: XGBRegressor

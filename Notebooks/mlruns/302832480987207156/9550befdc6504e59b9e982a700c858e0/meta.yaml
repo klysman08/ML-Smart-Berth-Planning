@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/302832480987207156/9550befdc6504e59b9e982a700c858e0/artifacts
+end_time: 1719519540363
+entry_point_name: ''
+experiment_id: '302832480987207156'
+lifecycle_stage: active
+run_id: 9550befdc6504e59b9e982a700c858e0
+run_name: adorable-ape-694
+run_uuid: 9550befdc6504e59b9e982a700c858e0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719519537745
+status: 3
+tags: []
+user_id: klysm

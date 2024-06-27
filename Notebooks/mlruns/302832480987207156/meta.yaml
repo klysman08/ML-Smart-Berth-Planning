@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/302832480987207156
+creation_time: 1719519537728
+experiment_id: '302832480987207156'
+last_update_time: 1719519537728
+lifecycle_stage: active
+name: LinearRegression

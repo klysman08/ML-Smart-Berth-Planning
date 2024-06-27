@@ -1,0 +1,6 @@
+Porto,Quantidade de Postos de acostagem,Altura do Fundo(m/ZH) ,Limite dwt de navios (dwt), Comprimento do Cais (m),Principais produtos
+TERMINAL DE GRANÉIS LÍQUIDOS,6,-28,350,,"Ramas, Refinados, LPG, Metanol e Nafta Química"
+TERMINAL PETROQUÍMICO,2,-12,,,"Propileno, Etileno, Butadieno, ETBE, Etanol, MTBE, Mescla Aromática, Metanol"
+TERMINAL MULTIPURPOSE DE SINES,4,-18,190,,"Granéis Sólidos, Carga Geral e Ro-Ro"
+TERMINAL DE GÁS NATURAL,1,-15,,,Gás Natural Liquefeito
+TERMINAL DE CONTENTORES DE SINES (XXI),1,-17.5,,940,Navios porta-contentores

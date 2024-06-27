@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/5181d50081d54754917e01873816ddcb/artifacts
+end_time: 1719519277296
+entry_point_name: ''
+experiment_id: '193880289116080773'
+lifecycle_stage: active
+run_id: 5181d50081d54754917e01873816ddcb
+run_name: carefree-stoat-559
+run_uuid: 5181d50081d54754917e01873816ddcb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719519272838
+status: 3
+tags: []
+user_id: klysm

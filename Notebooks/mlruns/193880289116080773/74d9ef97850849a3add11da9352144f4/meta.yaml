@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/74d9ef97850849a3add11da9352144f4/artifacts
+end_time: 1719519348675
+entry_point_name: ''
+experiment_id: '193880289116080773'
+lifecycle_stage: active
+run_id: 74d9ef97850849a3add11da9352144f4
+run_name: useful-asp-475
+run_uuid: 74d9ef97850849a3add11da9352144f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719519344434
+status: 3
+tags: []
+user_id: klysm

@@ -1,0 +1,16 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/875728371461656657/9c43f98246d3447b869fa09496fc4db5/artifacts
+deleted_time: 1719523439363
+end_time: 1719523210663
+entry_point_name: ''
+experiment_id: '875728371461656657'
+lifecycle_stage: deleted
+run_id: 9c43f98246d3447b869fa09496fc4db5
+run_name: entertaining-cod-78
+run_uuid: 9c43f98246d3447b869fa09496fc4db5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719523206611
+status: 3
+tags: []
+user_id: klysm

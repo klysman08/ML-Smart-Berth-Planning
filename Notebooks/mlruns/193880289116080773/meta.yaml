@@ -1,0 +1,6 @@
+artifact_location: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773
+creation_time: 1719519272536
+experiment_id: '193880289116080773'
+last_update_time: 1719519272536
+lifecycle_stage: active
+name: RandomForestRegression
