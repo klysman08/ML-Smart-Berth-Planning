@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/99c7416f998e4562a3210dd1dde8363b/artifacts
+end_time: 1719576418224
+entry_point_name: ''
+experiment_id: '193880289116080773'
+lifecycle_stage: active
+run_id: 99c7416f998e4562a3210dd1dde8363b
+run_name: casual-tern-933
+run_uuid: 99c7416f998e4562a3210dd1dde8363b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719576412561
+status: 3
+tags: []
+user_id: klysm

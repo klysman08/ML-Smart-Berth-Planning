@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/298642944140901291/31c328655af6447590b5105b5f284e3a/artifacts
+end_time: 1719685730707
+entry_point_name: ''
+experiment_id: '298642944140901291'
+lifecycle_stage: active
+run_id: 31c328655af6447590b5105b5f284e3a
+run_name: bouncy-wasp-717
+run_uuid: 31c328655af6447590b5105b5f284e3a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719685726674
+status: 3
+tags: []
+user_id: klysm

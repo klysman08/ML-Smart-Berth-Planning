@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/875728371461656657/2aeafe5039b240e4accd69d2ce58cfd2/artifacts
+end_time: 1719685777298
+entry_point_name: ''
+experiment_id: '875728371461656657'
+lifecycle_stage: active
+run_id: 2aeafe5039b240e4accd69d2ce58cfd2
+run_name: indecisive-snake-381
+run_uuid: 2aeafe5039b240e4accd69d2ce58cfd2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719685767876
+status: 3
+tags: []
+user_id: klysm

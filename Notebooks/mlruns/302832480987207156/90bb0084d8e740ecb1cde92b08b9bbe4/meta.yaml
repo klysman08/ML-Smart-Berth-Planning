@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/302832480987207156/90bb0084d8e740ecb1cde92b08b9bbe4/artifacts
+end_time: 1719685585899
+entry_point_name: ''
+experiment_id: '302832480987207156'
+lifecycle_stage: active
+run_id: 90bb0084d8e740ecb1cde92b08b9bbe4
+run_name: burly-ram-951
+run_uuid: 90bb0084d8e740ecb1cde92b08b9bbe4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719685581156
+status: 3
+tags: []
+user_id: klysm
