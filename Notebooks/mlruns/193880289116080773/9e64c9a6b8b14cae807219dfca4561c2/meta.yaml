@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/9e64c9a6b8b14cae807219dfca4561c2/artifacts
+end_time: 1719795772027
+entry_point_name: ''
+experiment_id: '193880289116080773'
+lifecycle_stage: active
+run_id: 9e64c9a6b8b14cae807219dfca4561c2
+run_name: nervous-cub-164
+run_uuid: 9e64c9a6b8b14cae807219dfca4561c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1719795764573
+status: 3
+tags: []
+user_id: klysm
