@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/74d9ef97850849a3add11da9352144f4/artifacts
+deleted_time: 1719937015357
 end_time: 1719519348675
 entry_point_name: ''
 experiment_id: '193880289116080773'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 74d9ef97850849a3add11da9352144f4
 run_name: useful-asp-475
 run_uuid: 74d9ef97850849a3add11da9352144f4

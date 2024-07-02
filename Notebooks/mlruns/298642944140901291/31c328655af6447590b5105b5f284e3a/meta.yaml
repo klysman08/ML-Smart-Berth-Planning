@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/298642944140901291/31c328655af6447590b5105b5f284e3a/artifacts
+deleted_time: 1719936968886
 end_time: 1719685730707
 entry_point_name: ''
 experiment_id: '298642944140901291'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 31c328655af6447590b5105b5f284e3a
 run_name: bouncy-wasp-717
 run_uuid: 31c328655af6447590b5105b5f284e3a

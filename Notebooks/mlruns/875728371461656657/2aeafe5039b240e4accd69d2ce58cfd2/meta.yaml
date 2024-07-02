@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/875728371461656657/2aeafe5039b240e4accd69d2ce58cfd2/artifacts
+deleted_time: 1719936933349
 end_time: 1719685777298
 entry_point_name: ''
 experiment_id: '875728371461656657'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 2aeafe5039b240e4accd69d2ce58cfd2
 run_name: indecisive-snake-381
 run_uuid: 2aeafe5039b240e4accd69d2ce58cfd2

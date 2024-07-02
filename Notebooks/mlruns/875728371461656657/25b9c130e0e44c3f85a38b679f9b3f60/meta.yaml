@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/875728371461656657/25b9c130e0e44c3f85a38b679f9b3f60/artifacts
+deleted_time: 1719936933359
 end_time: 1719523386906
 entry_point_name: ''
 experiment_id: '875728371461656657'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 25b9c130e0e44c3f85a38b679f9b3f60
 run_name: stylish-rook-486
 run_uuid: 25b9c130e0e44c3f85a38b679f9b3f60

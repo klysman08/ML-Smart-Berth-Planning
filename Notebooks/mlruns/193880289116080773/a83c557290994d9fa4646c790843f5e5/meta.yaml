@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/a83c557290994d9fa4646c790843f5e5/artifacts
+deleted_time: 1719937015350
 end_time: 1719685688821
 entry_point_name: ''
 experiment_id: '193880289116080773'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: a83c557290994d9fa4646c790843f5e5
 run_name: delicate-frog-676
 run_uuid: a83c557290994d9fa4646c790843f5e5

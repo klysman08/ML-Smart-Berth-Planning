@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/5181d50081d54754917e01873816ddcb/artifacts
+deleted_time: 1719937015358
 end_time: 1719519277296
 entry_point_name: ''
 experiment_id: '193880289116080773'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 5181d50081d54754917e01873816ddcb
 run_name: carefree-stoat-559
 run_uuid: 5181d50081d54754917e01873816ddcb

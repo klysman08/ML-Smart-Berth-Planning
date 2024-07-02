@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/302832480987207156/c0f78cc0d83a493d999a2ef0f6ea3453/artifacts
+deleted_time: 1719936989468
 end_time: 1719685566952
 entry_point_name: ''
 experiment_id: '302832480987207156'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: c0f78cc0d83a493d999a2ef0f6ea3453
 run_name: zealous-fish-795
 run_uuid: c0f78cc0d83a493d999a2ef0f6ea3453

@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/193880289116080773/99c7416f998e4562a3210dd1dde8363b/artifacts
+deleted_time: 1719937015349
 end_time: 1719576418224
 entry_point_name: ''
 experiment_id: '193880289116080773'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 99c7416f998e4562a3210dd1dde8363b
 run_name: casual-tern-933
 run_uuid: 99c7416f998e4562a3210dd1dde8363b

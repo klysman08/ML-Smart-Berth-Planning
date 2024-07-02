@@ -1,8 +1,9 @@
 artifact_uri: file:///c:/Users/klysm/Desktop/Marinetraffic/Notebooks/mlruns/298642944140901291/66795d3e95bc48da9053dc6b0863cfb4/artifacts
+deleted_time: 1719936968886
 end_time: 1719522760415
 entry_point_name: ''
 experiment_id: '298642944140901291'
-lifecycle_stage: active
+lifecycle_stage: deleted
 run_id: 66795d3e95bc48da9053dc6b0863cfb4
 run_name: masked-bee-294
 run_uuid: 66795d3e95bc48da9053dc6b0863cfb4
