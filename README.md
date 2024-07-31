@@ -50,6 +50,15 @@ allocation, Machine Learning
 - Avaliada a qualidade, confiabilidade e acessibilidade de cada plataforma de dados
 - Criada uma análise comparativa das diferentes plataformas, destacando seus pontos fortes e limitações
 
+| Plataforma       | Cobertura Global | Precisão dos Dados | Acesso Gratuito | Funcionalidades Avançadas | Dados em Tempo Real | Dados Históricos |
+|------------------|------------------|--------------------|-----------------|--------------------------|---------------------|------------------|
+| MarineTraffic    | Sim              | Alta               | Sim             | Pago                     | Sim                 | Sim              |
+| VesselFinder     | Sim              | Boa                | Sim             | Pago                     | Sim                 | Limitado         |
+| FleetMon         | Sim              | Alta               | Sim             | Pago                     | Sim                 | Sim              |
+| ShipFix          | Não (foco em frete) | Alta               | Não             | Pago                     | Sim                 | Sim              |
+| PortInfo         | Parcial          | Moderada           | Sim             | Variável                 | Não                 | Não              |
+
+
 ## Processo ETL para Histórico dos Navios no porto em um terminato período 
 
 - Projetado e implementado um pipeline de Extração, Transformação e Carga (ETL) para dados históricos do navios
