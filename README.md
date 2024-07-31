@@ -108,7 +108,7 @@ allocation, Machine Learning
 
 ## Pipeline 
 
-Este script Python demonstra um fluxo de trabalho abrangente de aprendizado de máquina para prever o tempo que um navio passa atracado.  Inclui carregamento de dados, pré-processamento, análise exploratória de dados, treinamento de modelo e avaliação usando várias técnicas de regressão.
+Os notebooks desse repositório demonstra um fluxo de trabalho de machine learning para prever o tempo que um navio passa atracado em um porto.  Inclui carregamento de dados, pré-processamento, análise exploratória de dados, treinamento de modelo e avaliação usando várias técnicas de regressão.
 
 ## Bibliotecas e Dependências
 
@@ -240,7 +240,11 @@ Um pipeline simples é criado combinando a validação cruzada K-Fold com o mode
 
 A regressão de mínimos quadrados ordinários (OLS) é realizada usando modelos estatísticos e um resumo dos resultados é impresso.
 
-Este script fornece uma abordagem abrangente para modelagem de regressão, desde a preparação de dados até a avaliação e interpretação do modelo.  Ele utiliza MLflow para rastreamento e registro de experimentos, permitindo reprodutibilidade e fácil comparação de diferentes modelos e parâmetros.
+
+
+**As etapas descritas compreendem desde a preparação de dados até a avaliação e interpretação do modelo.  Foi utilizado a lib MLflow para rastreamento e registro de experimentos, permitindo reprodutibilidade e comparação de diferentes modelos e parâmetros.**
+
+
 
 # Trabalho Futuro
 
