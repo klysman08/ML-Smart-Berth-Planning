@@ -3,20 +3,10 @@
 Keywords: Berth Planning, Maritime logistics, SmartPorts, Port optimization, Berth
 allocation, Machine Learning
 
-# Index
 # Índice
 
-1. [Trabalho Realizado Até o Momento](#trabalho-realizado-até-o-momento)
-   - [Análise Bibliométrica sobre Planejamento de Berços Inteligentes](#análise-bibliométrica-sobre-planejamento-de-berços-inteligentes)
-   - [Mapeamento de Plataformas de Dados de Navios e Portos](#mapeamento-de-plataformas-de-dados-de-navios-e-portos)
-   - [Processo ETL para Uso Histórico de Portos por Navios](#processo-etl-para-uso-histórico-de-portos-por-navios)
-   - [Processo ETL para Características de Navios Baseado em Números IMO](#processo-etl-para-características-de-navios-baseado-em-números-imo)
-   - [Análise Exploratória de Dados (EDA) dos Dados Coletados](#análise-exploratória-de-dados-eda-dos-dados-coletados)
-   - [Modelagem de Algoritmos de Aprendizado de Máquina](#modelagem-de-algoritmos-de-aprendizado-de-máquina)
-   - [Explicação e Análise de Importância de Características](#explicação-e-análise-de-importância-de-características)
-   - [Implementação de Métricas de Avaliação](#implementação-de-métricas-de-avaliação)
-   - [Integração do MLflow para Rastreamento de Experimentos](#integração-do-mlflow-para-rastreamento-de-experimentos)
-   - [Pipeline](#pipeline)
+1. [Trabalho Realizado](#trabalho-realizado-até-o-momento)
+2. [Pipeline dos dados e modelo](#pipeline)
    - [Bibliotecas e Dependências](#bibliotecas-e-dependências)
    - [Data Engineering](#data-engineering)
      - [Dataset Loading](#dataset-loading)
@@ -41,15 +31,8 @@ allocation, Machine Learning
    - [Pipeline](#pipeline)
    - [OLS Regression Results](#ols-regression-results)
 
-2. [Trabalho Futuro](#trabalho-futuro)
-   - [Expansão do Volume e Fontes de Dados](#expansão-do-volume-e-fontes-de-dados)
-   - [Criação e Gestão de Data Lake](#criação-e-gestão-de-data-lake)
-   - [Desenvolvimento de API para Implantação de Modelos](#desenvolvimento-de-api-para-implantação-de-modelos)
-   - [Interface Web para Visualização de Dados e Previsões](#interface-web-para-visualização-de-dados-e-previsões)
-   - [Otimização de Modelos e Técnicas Avançadas](#otimização-de-modelos-e-técnicas-avançadas)
-   - [Ferramentas de Simulação e Análise de Cenários](#ferramentas-de-simulação-e-análise-de-cenários)
-   - [Integração com Sistemas de Gestão Portuária](#integração-com-sistemas-de-gestão-portuária)
-   - [Análise de Sustentabilidade e Impacto Ambiental](#análise-de-sustentabilidade-e-impacto-ambiental)
+3. [Trabalho Futuro](#trabalho-futuro)
+
 
 
 # Trabalho realizado até o momento:
