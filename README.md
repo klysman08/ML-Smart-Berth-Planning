@@ -50,9 +50,9 @@ allocation, Machine Learning
 - Avaliada a qualidade, confiabilidade e acessibilidade de cada plataforma de dados
 - Criada uma análise comparativa das diferentes plataformas, destacando seus pontos fortes e limitações
 
-## Processo ETL para Uso Histórico de Portos por Navios
+## Processo ETL para Histórico dos Navios no porto em um terminato período 
 
-- Projetado e implementado um pipeline de Extração, Transformação e Carga (ETL) para dados históricos de navios
+- Projetado e implementado um pipeline de Extração, Transformação e Carga (ETL) para dados históricos do navios
 - Dados limpos e padronizados de várias fontes
 - Tratados valores ausentes e outliers no conjunto de dados
 
