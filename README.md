@@ -44,25 +44,23 @@ allocation, Machine Learning
 - Analisada a evolução dos tópicos de pesquisa ao longo do tempo
 - Criadas representações visuais dos dados bibliométricos (por exemplo, redes de co-citação, mapas de co-ocorrência de palavras-chave)
 
-## Mapeamento de Plataformas de Dados de Navios e Portos
+## Mapeamento de Plataformas de dados de Navios e Portos
 
 - Identificadas e catalogadas as principais fontes de dados para informações de navios e portos
 - Avaliada a qualidade, confiabilidade e acessibilidade de cada plataforma de dados
 - Criada uma análise comparativa das diferentes plataformas, destacando seus pontos fortes e limitações
-- Desenvolvida uma estratégia para integrar dados de múltiplas fontes
 
 ## Processo ETL para Uso Histórico de Portos por Navios
 
 - Projetado e implementado um pipeline de Extração, Transformação e Carga (ETL) para dados históricos de navios
 - Dados limpos e padronizados de várias fontes
 - Tratados valores ausentes e outliers no conjunto de dados
-- Criado um esquema de banco de dados unificado para consultas e análises eficientes
 
-## Processo ETL para Características de Navios Baseado em Números IMO
+## Processo ETL para Características de Navios Baseado no IMO Vessels 
 
 - Desenvolvido um processo ETL para extrair características de navios utilizando números da Organização Marítima Internacional (IMO)
-- Integrados esses dados com os dados históricos de uso de portos
-- Criada uma base de dados abrangente de perfis de navios
+- Criada uma base de dados de perfis de navios
+- Integração desses dados com os dados históricos dos navios no porto
 
 ## Análise Exploratória de Dados (EDA) dos Dados Coletados
 
