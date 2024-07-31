@@ -3,41 +3,126 @@
 Keywords: Berth Planning, Maritime logistics, SmartPorts, Port optimization, Berth
 allocation, Machine Learning
 
+# Index
+# Índice
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Libraries and Dependencies](#libraries-and-dependencies)
-3. [Data Engineering](#data-engineering)
-   - [Dataset Loading](#dataset-loading)
-   - [Feature Selection and Treatment](#feature-selection-and-treatment)
-   - [Logarithmic Transformation](#logarithmic-transformation)
-4. [Exploratory Data Analysis](#exploratory-data-analysis)
-   - [YData Profiling](#ydata-profiling)
-   - [RainCloud Plot](#raincloud-plot)
-5. [Model Preparation](#model-preparation)
-   - [Train-Test Split](#train-test-split)
-   - [K-Fold Cross-Validation](#k-fold-cross-validation)
-6. [Model Evaluation Metrics](#model-evaluation-metrics)
-7. [Machine Learning Models](#machine-learning-models)
-   - [Linear Regression](#linear-regression)
-   - [Random Forest Regression](#random-forest-regression)
-   - [XGBoost Regression](#xgboost-regression)
-   - [Multilayer Perceptron (MLP) Regression](#multilayer-perceptron-mlp-regression)
-8. [Model Analysis](#model-analysis)
-   - [Residual Analysis](#residual-analysis)
-   - [Performance Evaluation](#performance-evaluation)
-   - [Feature Importance](#feature-importance)
-   - [SHAP (SHapley Additive exPlanations)](#shap-shapley-additive-explanations)
-9. [Pipeline](#pipeline)
-10. [OLS Regression Results](#ols-regression-results)
+1. [Trabalho Realizado Até o Momento](#trabalho-realizado-até-o-momento)
+   - [Análise Bibliométrica sobre Planejamento de Berços Inteligentes](#análise-bibliométrica-sobre-planejamento-de-berços-inteligentes)
+   - [Mapeamento de Plataformas de Dados de Navios e Portos](#mapeamento-de-plataformas-de-dados-de-navios-e-portos)
+   - [Processo ETL para Uso Histórico de Portos por Navios](#processo-etl-para-uso-histórico-de-portos-por-navios)
+   - [Processo ETL para Características de Navios Baseado em Números IMO](#processo-etl-para-características-de-navios-baseado-em-números-imo)
+   - [Análise Exploratória de Dados (EDA) dos Dados Coletados](#análise-exploratória-de-dados-eda-dos-dados-coletados)
+   - [Modelagem de Algoritmos de Aprendizado de Máquina](#modelagem-de-algoritmos-de-aprendizado-de-máquina)
+   - [Explicação e Análise de Importância de Características](#explicação-e-análise-de-importância-de-características)
+   - [Implementação de Métricas de Avaliação](#implementação-de-métricas-de-avaliação)
+   - [Integração do MLflow para Rastreamento de Experimentos](#integração-do-mlflow-para-rastreamento-de-experimentos)
+   - [Pipeline](#pipeline)
+   - [Bibliotecas e Dependências](#bibliotecas-e-dependências)
+   - [Data Engineering](#data-engineering)
+     - [Dataset Loading](#dataset-loading)
+     - [Feature Selection and Treatment](#feature-selection-and-treatment)
+     - [Logarithmic Transformation](#logarithmic-transformation)
+   - [Exploratory Data Analysis](#exploratory-data-analysis)
+     - [YData Profiling](#ydata-profiling)
+   - [Model Preparation](#model-preparation)
+     - [Train-Test Split](#train-test-split)
+     - [K-Fold Cross-Validation](#k-fold-cross-validation)
+   - [Model Evaluation Metrics](#model-evaluation-metrics)
+   - [Machine Learning Models](#machine-learning-models)
+     - [Linear Regression](#linear-regression)
+     - [Random Forest Regression](#random-forest-regression)
+     - [XGBoost Regression](#xgboost-regression)
+     - [Multilayer Perceptron (MLP) Regression](#multilayer-perceptron-mlp-regression)
+   - [Model Analysis](#model-analysis)
+     - [Residual Analysis](#residual-analysis)
+     - [Performance Evaluation](#performance-evaluation)
+     - [Feature Importance](#feature-importance)
+     - [SHAP (SHapley Additive exPlanations)](#shap-shapley-additive-explanations)
+   - [Pipeline](#pipeline)
+   - [OLS Regression Results](#ols-regression-results)
 
-## Introduction
+2. [Trabalho Futuro](#trabalho-futuro)
+   - [Expansão do Volume e Fontes de Dados](#expansão-do-volume-e-fontes-de-dados)
+   - [Criação e Gestão de Data Lake](#criação-e-gestão-de-data-lake)
+   - [Desenvolvimento de API para Implantação de Modelos](#desenvolvimento-de-api-para-implantação-de-modelos)
+   - [Interface Web para Visualização de Dados e Previsões](#interface-web-para-visualização-de-dados-e-previsões)
+   - [Otimização de Modelos e Técnicas Avançadas](#otimização-de-modelos-e-técnicas-avançadas)
+   - [Ferramentas de Simulação e Análise de Cenários](#ferramentas-de-simulação-e-análise-de-cenários)
+   - [Integração com Sistemas de Gestão Portuária](#integração-com-sistemas-de-gestão-portuária)
+   - [Análise de Sustentabilidade e Impacto Ambiental](#análise-de-sustentabilidade-e-impacto-ambiental)
 
-This Python script demonstrates a comprehensive machine learning workflow for predicting the time a vessel spends at a berth. It includes data loading, preprocessing, exploratory data analysis, model training, and evaluation using various regression techniques.
 
-## Libraries and Dependencies
+# Trabalho realizado até o momento:
 
-The script uses the following main libraries:
+## Análise Bibliométrica sobre Planejamento de Berços Inteligentes
+
+- Conduzida uma revisão abrangente da literatura sobre planejamento de berços inteligentes
+- Identificados os principais temas, autores influentes e artigos no campo
+- Analisada a evolução dos tópicos de pesquisa ao longo do tempo
+- Criadas representações visuais dos dados bibliométricos (por exemplo, redes de co-citação, mapas de co-ocorrência de palavras-chave)
+
+## Mapeamento de Plataformas de Dados de Navios e Portos
+
+- Identificadas e catalogadas as principais fontes de dados para informações de navios e portos
+- Avaliada a qualidade, confiabilidade e acessibilidade de cada plataforma de dados
+- Criada uma análise comparativa das diferentes plataformas, destacando seus pontos fortes e limitações
+- Desenvolvida uma estratégia para integrar dados de múltiplas fontes
+
+## Processo ETL para Uso Histórico de Portos por Navios
+
+- Projetado e implementado um pipeline de Extração, Transformação e Carga (ETL) para dados históricos de navios
+- Dados limpos e padronizados de várias fontes
+- Tratados valores ausentes e outliers no conjunto de dados
+- Criado um esquema de banco de dados unificado para consultas e análises eficientes
+
+## Processo ETL para Características de Navios Baseado em Números IMO
+
+- Desenvolvido um processo ETL para extrair características de navios utilizando números da Organização Marítima Internacional (IMO)
+- Integrados esses dados com os dados históricos de uso de portos
+- Criada uma base de dados abrangente de perfis de navios
+
+## Análise Exploratória de Dados (EDA) dos Dados Coletados
+
+- Realizada análise estatística para entender distribuições e relações dos dados
+- Criadas visualizações para identificar padrões, tendências e anomalias nos dados
+- Conduzida análise de correlação entre diferentes variáveis
+- Identificadas possíveis características para modelos de aprendizado de máquina
+
+## Modelagem de Algoritmos de Aprendizado de Máquina
+
+- Implementados e comparados múltiplos algoritmos de aprendizado de máquina:
+  - Regressão Logística
+  - Random Forest
+  - Perceptron Multicamadas (Rede Neural)
+- Realizado ajuste de hiperparâmetros para cada modelo
+- Avaliados os modelos usando técnicas de validação cruzada
+
+## Explicação e Análise de Importância de Características
+
+- Utilizadas técnicas como valores SHAP (SHapley Additive exPlanations) para interpretar decisões dos modelos
+- Características classificadas com base na sua importância nas previsões
+- Criadas visualizações para explicar os impactos das características nos resultados dos modelos
+
+## Implementação de Métricas de Avaliação
+
+- Implementado um conjunto abrangente de métricas de avaliação, incluindo:
+  - Erro Quadrático Médio (MSE), R-quadrado (R2) para tarefas de regressão
+
+## Integração do MLflow para Rastreamento de Experimentos
+
+- Configurado o MLflow para rastrear e gerenciar experimentos de aprendizado de máquina
+- Registrados parâmetros de modelos, métricas e artefatos para cada execução
+- Implementado controle de versão para modelos e conjuntos de dados
+- Criado um painel para fácil comparação de diferentes experimentos
+
+
+## Pipeline 
+
+Este script Python demonstra um fluxo de trabalho abrangente de aprendizado de máquina para prever o tempo que um navio passa atracado.  Inclui carregamento de dados, pré-processamento, análise exploratória de dados, treinamento de modelo e avaliação usando várias técnicas de regressão.
+
+## Bibliotecas e Dependências
+
+O script usa as seguintes bibliotecas principais:
 - pandas
 - numpy
 - matplotlib
@@ -47,7 +132,7 @@ The script uses the following main libraries:
 - shap
 - statsmodels
 
-Additional libraries used for specific visualizations:
+Bibliotecas adicionais usadas para visualizações específicas:
 - ptitprince (for RainCloud plots)
 - ydata_profiling (for data profiling)
 
@@ -55,11 +140,11 @@ Additional libraries used for specific visualizations:
 
 ### Dataset Loading
 
-The dataset is loaded from a CSV file named 'dataset_modelagem.csv' located in the '../Datasets/' directory.
+O conjunto de dados é carregado a partir de um arquivo CSV denominado 'dataset_modelagem.csv' localizado no diretório '../Datasets/'.
 
 ### Feature Selection and Treatment
 
-Selected features include:
+Os recursos selecionados incluem:
 - 'Berth Name'
 - 'Terminal Name'
 - 'Time At Berth'
@@ -76,35 +161,32 @@ Selected features include:
 - 'Length'
 - 'Breadth'
 
-Rows with null values are removed. Categorical variables are encoded using LabelEncoder.
+Linhas com valores nulos são removidas.  Variáveis ​​categóricas são codificadas usando LabelEncoder.
 
 ### Logarithmic Transformation
 
-The 'Time At Berth' and 'Time At Port' features are log-transformed. Rows with infinite values in 'Time At Berth' are removed.
+Os recursos 'Time At Berth' e 'Time At Port' são transformados em log.  Linhas com valores infinitos em 'Time At Berth' são removidas.
 
 ## Exploratory Data Analysis
 
 ### YData Profiling
 
-The script generates a comprehensive data profile using YData Profiling.
+O script gera um perfil de dados abrangente usando YData Profiling.
 
-### RainCloud Plot
-
-A RainCloud plot is created to visualize the distribution of 'Time At Port' across different berths.
 
 ## Model Preparation
 
 ### Train-Test Split
 
-The data is split into training and testing sets with a 80-20 ratio.
+Os dados são divididos em conjuntos de treinamento e teste com uma proporção de 80-20.
 
 ### K-Fold Cross-Validation
 
-5-fold cross-validation is used for model evaluation.
+A validação cruzada de 5 vezes é usada para avaliação do modelo.
 
 ## Model Evaluation Metrics
 
-Two main metrics are used:
+Duas métricas principais são usadas:
 1. Mean Squared Error (MSE)
 2. R-squared (R2) Score
 
@@ -112,11 +194,11 @@ Two main metrics are used:
 
 ### Linear Regression
 
-A simple linear regression model is implemented using scikit-learn's LinearRegression.
+Um modelo de regressão linear simples é implementado usando LinearRegression do scikit-learn.
 
 ### Random Forest Regression
 
-A Random Forest regressor is implemented with the following parameters:
+Um regressor Random Forest é implementado com os seguintes parâmetros:
 - n_estimators: 24
 - random_state: 30
 - oob_score: True
@@ -124,48 +206,103 @@ A Random Forest regressor is implemented with the following parameters:
 
 ### XGBoost Regression
 
-An XGBoost regressor is implemented with the following parameters:
+Um regressor XGBoost é implementado com os seguintes parâmetros:
 - objective: 'reg:squarederror'
 - random_state: 42
 
 ### Multilayer Perceptron (MLP) Regression
 
-An MLP regressor is implemented with the following parameters:
+Um regressor MLP é implementado com os seguintes parâmetros:
 - hidden_layer_sizes: (50, 50)
 - activation: 'relu'
 - solver: 'adam'
 - random_state: 24
 - max_iter: 100
 
-Data is normalized using StandardScaler before training the MLP model.
+Os dados são normalizados usando StandardScaler antes de treinar o modelo MLP.
 
 ## Model Analysis
 
 ### Residual Analysis
 
-Residual analysis is performed using:
+A análise residual é realizada usando:
 - Histogram of residuals
 - Scatter plot of predicted vs residuals
 - Q-Q plot
 
 ### Performance Evaluation
 
-A scatter plot of actual vs predicted values is created to visualize model performance.
+Um gráfico de dispersão de valores reais versus valores previstos é criado para visualizar o desempenho do modelo.
 
 ### Feature Importance
 
-Feature importance is calculated and displayed for the Random Forest model.
+A importância do recurso é calculada e exibida para o modelo Random Forest.
 
 ### SHAP (SHapley Additive exPlanations)
 
-SHAP values are calculated and plotted for both Linear Regression and Random Forest models to explain feature impacts.
+Os valores SHAP são calculados e plotados para modelos de regressão linear e floresta aleatória para explicar os impactos dos recursos.
 
 ## Pipeline
 
-A simple pipeline is created combining K-Fold cross-validation with the Linear Regression model.
+Um pipeline simples é criado combinando a validação cruzada K-Fold com o modelo de regressão linear.
 
 ## OLS Regression Results
 
-Ordinary Least Squares (OLS) regression is performed using statsmodels, and a summary of the results is printed.
+A regressão de mínimos quadrados ordinários (OLS) é realizada usando modelos estatísticos e um resumo dos resultados é impresso.
 
-This script provides a comprehensive approach to regression modeling, from data preparation to model evaluation and interpretation. It utilizes MLflow for experiment tracking and logging, enabling reproducibility and easy comparison of different models and parameters.
+Este script fornece uma abordagem abrangente para modelagem de regressão, desde a preparação de dados até a avaliação e interpretação do modelo.  Ele utiliza MLflow para rastreamento e registro de experimentos, permitindo reprodutibilidade e fácil comparação de diferentes modelos e parâmetros.
+
+# Trabalho Futuro
+
+## Expansão do Volume e Fontes de Dados
+
+- Negociar acesso a conjuntos de dados maiores e mais abrangentes de autoridades portuárias e empresas de transporte marítimo
+- Integrar fluxos de dados em tempo real do AIS (Sistema de Identificação Automática) para rastreamento de navios 
+- Explorar possibilidades de incorporação de dados meteorológicos e indicadores econômicos
+
+## Criação e Gestão de Data Lake
+
+- Projetar e implementar uma arquitetura escalável de data lake
+- Configurar pipelines de ingestão de dados para atualizações contínuas
+- Implementar políticas de governança de dados e controles de acesso
+- Integrar monitoramento de qualidade de dados e processos de limpeza automatizados
+- Explorar tecnologias como Databricks, Apache Hadoop ou Amazon S3 para armazenamento e recuperação eficiente de dados
+
+## Desenvolvimento de API para Implantação de Modelos
+
+- Projetar uma API RESTful para previsões de modelos
+- Implementar autenticação e limitação de taxa para acesso à API
+- Configurar monitoramento e registro de uso e desempenho da API
+
+## Interface Web para Visualização de Dados e Previsões
+
+- Projetar uma interface web para analisar os dados das embarcações e do porto
+- Criar uma interface de previsão onde os usuários possam inserir parâmetros e receber saídas dos modelos
+- Implementar autenticação de usuário e controle de acesso baseado em funções
+- Desenvolver recursos para geração de relatórios personalizados e exportação de dados
+
+## Otimização de Modelos e Técnicas Avançadas
+
+- Explorar métodos de ensemble para combinar previsões de múltiplos modelos
+- Investigar o uso de modelos de deep learning para reconhecimento de padrões complexos
+- Desenvolver um sistema para re-treinamento e implantação automatizada de modelos
+
+## Ferramentas de Simulação e Análise de Cenários
+
+- Desenvolver um motor de simulação para modelar diferentes cenários de alocação de berços
+- Criar ferramentas para planejamento de capacidade e identificação de gargalos
+- Implementar recursos de análise de sensibilidade para entender o impacto de vários fatores na eficiência dos berços
+
+## Integração com Sistemas de Gestão Portuária
+
+- Desenvolver interfaces para integrar o sistema de planejamento de berços inteligentes com o software de gestão portuária existente
+- Implementar protocolos de troca de dados em tempo real para atualizações
+- Criar sistemas de alertas e notificações para possíveis problemas ou otimizações
+
+## Análise de Sustentabilidade e Impacto Ambiental
+
+- Integrar dados ambientais no modelo para prever e minimizar o impacto ecológico das operações de berço
+- Desenvolver recursos para otimizar a eficiência de combustível e reduzir emissões
+- Criar ferramentas de relatórios para conformidade ambiental e métricas de sustentabilidade
+
+
