@@ -1,0 +1,42 @@
+{
+  "Random Forest": {
+    "params": {
+      "n_estimators": 500,
+      "max_depth": 30,
+      "min_samples_leaf": 8,
+      "min_samples_split": 5,
+      "max_features": 0.5696663578601833
+    },
+    "validation_mae_h": 10.21840863512299
+  },
+  "Extra Trees": {
+    "params": {
+      "n_estimators": 900,
+      "max_depth": 25,
+      "min_samples_leaf": 4,
+      "min_samples_split": 17,
+      "max_features": 0.5549338791108094
+    },
+    "validation_mae_h": 10.116990250850675
+  },
+  "HistGradientBoosting": {
+    "params": {
+      "max_iter": 250,
+      "learning_rate": 0.015259146747200466,
+      "max_leaf_nodes": 95,
+      "min_samples_leaf": 60,
+      "l2_regularization": 3.9180677059368403
+    },
+    "validation_mae_h": 10.356915799359381
+  },
+  "Gradient Boosting": {
+    "params": {
+      "n_estimators": 500,
+      "learning_rate": 0.019721610970574007,
+      "max_depth": 5,
+      "subsample": 0.836965827544817,
+      "min_samples_leaf": 2
+    },
+    "validation_mae_h": 10.196162171774514
+  }
+}

@@ -1,0 +1,10 @@
+artefact,layer,mb
+source/FN_APS_JUL.csv,source,2.049312
+source/PR_JUL.csv,source,2.354367
+source/ROP_JUL.csv,source,0.314722
+source/Ton_movimentadas_navio_jul.csv,source,0.264024
+bronze_points.parquet,bronze,0.537795
+bronze_ships.parquet,bronze,0.278983
+bronze_tonnage.parquet,bronze,0.080579
+gold_berth_time.parquet,gold,0.757417
+silver_berth_visits.parquet,silver,0.380997

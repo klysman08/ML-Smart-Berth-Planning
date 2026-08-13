@@ -1,0 +1,33 @@
+[project]
+name = "ml-smart-berth-planning"
+version = "0.2.0"
+description = "Predicting vessel time at berth for smart berth planning (Port of Sines)"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+    # Pinned below pandas 3: the LabelEncoder loop in the original notebooks
+    # relies on `dtype == type(object)`, which is False under the pandas 3
+    # string dtype and silently skips categorical encoding.
+    "pandas>=2.2,<3.0",
+    "numpy>=1.26,<3.0",
+    "scikit-learn>=1.5",
+    "xgboost>=2.1",
+    "shap>=0.46",
+    "statsmodels>=0.14",
+    "matplotlib>=3.9",
+    "seaborn>=0.13",
+    "scipy>=1.13",
+    "mlflow>=2.16",
+    "tabulate>=0.9",
+    "pyarrow>=25.0.1",
+]
+
+[project.optional-dependencies]
+notebooks = [
+    "jupyter>=1.1",
+    "ipykernel>=6.29",
+    "ydata-profiling>=4.10",
+]
+
+[tool.uv]
+package = false

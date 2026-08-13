@@ -1,0 +1,9 @@
+Concern,Managed platform,Open-source local,Note
+Storage format,Delta Lake,Apache Parquet,"Columnar, typed, portable"
+Processing,Apache Spark,pandas / DuckDB,Single-node is sufficient at this volume
+Catalogue,Unity Catalog,Directory layout + schema manifest,"Lineage kept, governance simplified"
+Layers,Bronze / Silver / Gold,Bronze / Silver / Gold,Identical medallion semantics
+Experiment tracking,Managed MLflow,Local MLflow,"Same API, local backing store"
+Orchestration,Databricks Workflows,Python entry points,"Same DAG, different scheduler"
+Quality controls,Delta constraints,Bounds + quarantine in Silver,Explicit and auditable
+Time travel,Delta versioning,Immutable dated snapshots,Reproducibility retained
